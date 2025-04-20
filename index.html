@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julius Technology</title>
+    <style>
+        body {
+            text-align: center;
+            background: url("https://i.imgur.com/dV1qS4h.jpg"); /* Updated to direct image URL */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        input {
+            border: 0;
+            padding: 10px;
+            font-size: 18px;
+            margin: 10px;
+        }
+
+        input[type="submit"] {
+            background: red;
+            color: white;
+            cursor: pointer;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px;
+        }
+
+        /* Responsive design for smaller screens */
+        @media (max-width: 600px) {
+            body {
+                font-size: 14px;
+            }
+
+            input {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Julius Technology</h1>
+    <p>Welcome to Julius Technology, where we provide the best technology solutions for your needs.</p>
+
+    <form action="https://example.com/submit" method="POST">
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <input type="submit" value="Submit">
+    </form>
+
+    <footer>
+        <p>&copy; 2023 Julius Technology. All rights reserved.</p>
+    </footer>
+</body>
+</html>
